@@ -21,7 +21,3 @@ class Kivi(object):
 		print(f"Time:{self.end - self.start}")
 		for local in self.created_locals:
 			print(f"Size of {local} is {self.new_locals[local].__sizeof__()}")
-
-with Kivi("List Example"):
-	a = [i for i in range(10000)]
-	b = [i for i in range(1000000)]

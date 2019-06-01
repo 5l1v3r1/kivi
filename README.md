@@ -1,6 +1,11 @@
 # Kivi
 It calculates the creation time and size of python objects.
 
+## Installation
+```
+python3 setup.py install
+```
+
 ## Example
 ``` 
 from kivi import Kivi 

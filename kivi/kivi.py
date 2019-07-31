@@ -1,8 +1,8 @@
-from time import time
 import inspect
+from time import time
+
 
 class Kivi(object):
-
     def __init__(self, description):
         self.description = description
 
